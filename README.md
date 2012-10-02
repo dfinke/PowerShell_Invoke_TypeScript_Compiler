@@ -19,10 +19,13 @@ Or, copy the contents of the InvokeTSC.ps1 to your PowerShell profile.
 ## Examples
 
 Here is how you can compile a TypeScript file to JavaScript
+
 *Invoke-TSC .\helloworld.ts*
 
 This will compile and then execute the resulting JavaScript
+
 *Invoke-TSC .\helloworld.ts -Execute*
 
 Finally, you can compile and execute all the TypeScript files in a directory
+
 *dir *.ts | Invoke-TSC -Execute*
